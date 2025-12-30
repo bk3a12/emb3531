@@ -298,8 +298,8 @@ index 000000000000..215ba9dbcdcc
 +	snps,reset-gpio = <&gpio3 RK_PB7 GPIO_ACTIVE_LOW>; // bsp
 +	snps,reset-active-low;
 +	snps,reset-delays-us = <0 10000 50000>;
-+	tx_delay = <0x28>;
-+	rx_delay = <0x11>;
++	tx_delay = <0x1a>;
++	rx_delay = <0x14>;
 +	status = "okay";
 +};
 +
@@ -961,3 +961,4 @@ index 000000000000..215ba9dbcdcc
 +&iep_mmu {
 +	status = "okay";
 +};
+
