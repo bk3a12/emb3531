@@ -1,0 +1,7 @@
+How to extract rockchip firmware image .img
+
+1. Use rk2918_tools
+1.1 img_unpack source.img raw.img --> extract raw image from rockchip firmware img.
+1.2 afptool -unpack out.img output --> extract raw image to partition images.
+2. Use magiskboot to extract boot.img to kernel, second file, dtb (if any).
+3. Use rsce-go to extract second file to dtb, boot bmps.
